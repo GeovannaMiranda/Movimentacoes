@@ -1,23 +1,73 @@
 .fonte{
     font-family: 'Roboto', sans-serif;
 }
+.estilo{
+    padding: 1%;
+}
+.Geral{
+    margin: 1%;
+}
+.geralCard{ 
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 210vh);
+ 
+}
+.geralCard > div{
+    grid-row: auto;
+    grid-column: auto;
 
-th {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    background: #007bff;
-    color:  white;
+}
+.campo1{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+ 
+}
+.dataHora{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.dataHora > div {
+    margin-left: 10%;
 }
 
-.hide {
-    display: none;
+.campo{
+    display: flex;
+    padding: 2%;
+}
+.vendto{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.vendto > div{
+    margin-left: 15%;
 }
 
-@media only screen and (max-width: 1024px) {
-    #corpo{
-        display: grid;
-        padding: 0%;
-        margin: 0px;
-    }
+.estilocard{
+    display: grid;
+    padding: 1%;
+    justify-content: left;
+    grid-template-columns: repeat(auto-fit, 150vh);
+    grid-template-rows: repeat(auto-fit, 20vh);
+}
+.campo2{
+    display: flex;
+    margin: 2%;
+    justify-content: space-between;
+}
+
+.campo3{
+    display: flex;
+
+}
+.desctotal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.desctotal> div{
+    margin-left: 5%;
 }

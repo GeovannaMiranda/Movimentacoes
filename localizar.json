@@ -1,0 +1,12 @@
+{ "localizar":[
+    {
+      "documento": "1",
+      "data":"2021-07-28",
+      "hora": "hora",
+      "vendedor": "936.938.039-60",
+      "desconto": 998,
+      "totalitens": 50,
+      "totalgeral": 1500,
+      "operador":"11"
+     }
+]}
